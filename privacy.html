@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy — Job Desk</title><link rel="stylesheet" href="styles.css"></head>
+<body><main>
+<nav aria-label="Information pages"><a href="index.html">Job Desk</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+<h1>Privacy policy</h1><p class="eyebrow">Updated 17 October 2026</p>
+<h2>Purpose and permission</h2>
+<p>Job Desk is a personal Windows desktop application. Its optional Gmail integration helps its owner review employer responses and relate them to locally saved applications. It requests only <code>https://www.googleapis.com/auth/gmail.readonly</code>.</p>
+<p>That permission covers the mailbox; it is not restricted by Google to employment messages. The application uses a configurable query and date window to limit what it retrieves. Account identity is checked against the application’s intended personal account.</p>
+<h2>Information accessed and used</h2>
+<p>The desktop application reads the connected account’s email address, message identifiers, relevant mailbox-history information, message headers and the text of messages matching its search. It stores imported messages, local classifications and any application links or review decisions on the owner’s computer. Remote message images and attachments are not loaded by the message viewer.</p>
+<p>Gmail access is read-only. Job Desk does not send messages, mark messages read, edit labels, archive or delete messages in Gmail. Local review decisions are separate from the mailbox.</p>
+<h2>Processing and sharing</h2>
+<p>Google sign-in and API requests go directly between the desktop application, the user’s browser and Google. There is no Job Desk cloud mailbox server. Message classification and matching run locally. Imported Gmail message content is excluded from requests to external AI providers and is not used by Job Desk to train general-purpose AI models, advertise or sell data.</p>
+<p>Job Desk’s use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Storage and retention</h2>
+<p>Google tokens and the desktop client secret are stored separately using Windows-protected credential storage. The local database, imported message records, document files and user-created backups are not encrypted by Job Desk. Their protection depends on the owner’s Windows account, device security and handling of backup copies.</p>
+<p>Imported records remain until the owner removes the local data. Disconnecting Gmail removes the saved access and refresh tokens and sync cursor, and stops future retrieval. The desktop OAuth client configuration remains available for reconnection. Disconnecting does not erase already imported messages or backups. Access can also be revoked in the user’s <a href="https://myaccount.google.com/connections">Google Account connections</a>. Removing a local profile or backup removes that copy; copies retained elsewhere must be handled separately.</p>
+<h2>These information pages</h2>
+<p>These static pages do not access Gmail or the desktop application’s data. They contain no analytics scripts, tracking pixels, forms or cookies set by Job Desk. These pages are hosted on GitHub Pages. When hosted there, GitHub logs and stores visitors’ IP addresses for security purposes, including visits made without signing in. GitHub handles hosting information under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>.</p>
+<h2>Questions</h2>
+<p>Use the support email displayed on the application’s Google authorisation screen. No personal contact address is published on these information pages.</p>
+<footer><a href="index.html">About Job Desk</a> · <a href="terms.html">Terms</a></footer>
+</main></body></html>
